@@ -75,8 +75,16 @@ WSGI_APPLICATION = 'hello.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'hello_db',
+    },
+    'database2': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'database2',
+        'USER': 'database2_role',
+        'PASSWORD': 'database2_password',
+        'HOST': 'database2',
+        'PORT': '5432',
     }
 }
 

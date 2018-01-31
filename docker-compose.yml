@@ -34,6 +34,8 @@ services:
   # web container, with django + gunicorn
   djangoapp:
     build: .
+    environment:
+      - DJANGO_SETTINGS_MODULE
     volumes:
       - .:/opt/services/djangoapp/src
       - static:/opt/services/djangoapp/static
