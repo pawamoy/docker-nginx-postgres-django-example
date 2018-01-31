@@ -8,6 +8,8 @@ name = "pypi"
 [packages]
 
 Django = "*"
+"psycopg2" = "*"
+gunicorn = "*"
 
 
 [dev-packages]
