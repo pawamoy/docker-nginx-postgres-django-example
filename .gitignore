@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 *.egg-info/
 .tox/
+.coverage*
+.pytest_cache/
