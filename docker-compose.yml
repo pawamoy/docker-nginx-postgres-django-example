@@ -61,6 +61,7 @@ services:
       - nginx_network
     depends_on:
       - djangoapp
+
 networks:
   database1_network:
     driver: bridge
@@ -68,6 +69,7 @@ networks:
     driver: bridge
   nginx_network:
     driver: bridge
+
 volumes:
   database1_volume:
   database2_volume:
