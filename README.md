@@ -52,5 +52,5 @@ You need to install [Docker][] and [Docker-Compose][].
 [Docker-Compose]: https://docs.docker.com/compose/
 
 ## Related blog post
-[Docker Compose with NginX, Django, Gunicorn and multiple Postgres databases][1]
-[1]: http://pawamoy.github.io/2018/02/01/docker-compose-django-postgres-nginx.html
+[Docker Compose with NginX, Django, Gunicorn and multiple Postgres databases][post]
+[post]: http://pawamoy.github.io/2018/02/01/docker-compose-django-postgres-nginx.html
