@@ -50,3 +50,7 @@ You need to install [Docker][] and [Docker-Compose][].
 [GitLab]: https://about.gitlab.com/
 [Makefile]: https://www.gnu.org/software/make/manual/make.html
 [Docker-Compose]: https://docs.docker.com/compose/
+
+## Related blog post
+[Docker Compose with NginX, Django, Gunicorn and multiple Postgres databases][1]
+[1]: http://pawamoy.github.io/2018/02/01/docker-compose-django-postgres-nginx.html
