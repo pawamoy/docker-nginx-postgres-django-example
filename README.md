@@ -3,8 +3,8 @@ This is a [Docker][] setup for a web application based on Django.
 
 - The [Django][] application is served by [Gunicorn][] (WSGI application).
 - We use [NginX][] as reverse proxy and static files server. Static and media files are
-  permanently stored in volumes.
-- Multiple [Postgres][] databases can be used. Data are permanently stored in volumes.
+  persistently stored in volumes.
+- Multiple [Postgres][] databases can be used. Data are persistently stored in volumes.
 - [Python][] dependencies are managed through [pipenv][], with `Pipfile` and `Pipfile.lock`.
 - Support for multiple environment settings (variable `DJANGO_SETTINGS_MODULE` is passed
   to the `djangoapp` service).
