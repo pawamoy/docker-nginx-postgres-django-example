@@ -13,6 +13,9 @@ run:
 migrate:
 	$(COMMAND) 'cd hello; for db in default database2; do ./manage.py migrate --database=$${db}; done'
 
+collectstatic:
+	docker-compose run --rm djangoapp hello/manage.py collectstatic --no-input
+
 check: checksafety checkstyle
 
 test:
