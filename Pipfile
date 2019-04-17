@@ -8,7 +8,7 @@ name = "pypi"
 [packages]
 
 Django = "*"
-"psycopg2" = "*"
+"psycopg2-binary" = "*"
 gunicorn = "*"
 
 
